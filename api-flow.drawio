@@ -1,0 +1,208 @@
+<mxfile host="65bd71144e">
+    <diagram id="jjdv6M6dV-NcMJGGokLt" name="Page-1">
+        <mxGraphModel dx="906" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="API Gateway&lt;br&gt;(Nginx)&lt;br&gt;&lt;br&gt;/order&lt;br&gt;&lt;br&gt;/product&lt;br&gt;&lt;br&gt;/user" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="200" width="160" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="user request" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user service&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;create account&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;/span&gt;POST - /signup&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;login user&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;POST - /login&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get shopping details&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;GET - /shopping-details&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get loggedin user wishlist&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;GET - /whishlist&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="600" width="220" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="/user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-25;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="500" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;product service&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;create new product&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;POST - /product/create&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get product by category&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;GET - /category/:type&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get product by id&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;GET - /:id&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get selected products&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;POST - /ids&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get all products&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;GET - /" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="720" width="240" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="10" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="PublishMessage(ADD_TO_WISHLIST, USER_SERVICE)&lt;br&gt;&lt;br&gt;payload: { data: { userId, product, qty }, event: ADD_TO_WISHLIST }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1060" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;text-align: left;&quot;&gt;add to user's wishlist&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;PUT - /wishlist&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="1070" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="USER_QUEUE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="1070" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="20" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="20" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span style=&quot;text-align: left;&quot;&gt;delete user's wishlist&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DELETE - /wishlist/:id&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="1190" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="PublishMessage(REMOVE_FROM_WISHLIST, USER_SERVICE)&lt;br&gt;&lt;br&gt;payload: { data: { userId, product, qty }, event: REMOVE_FROM_WISHLIST&amp;nbsp;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1180" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="USER_QUEUE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="1190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="26" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="26" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;text-align: left;&quot;&gt;put in user's cart&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;PUT - /cart&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="1360" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="27" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="PublishMessage(ADD_TO_CART, USER_SERVICE)&lt;br&gt;&lt;br&gt;payload: { data: { userId, product, qty }, event: ADD_TO_CART&amp;nbsp;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1310" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="28" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="PublishMessage(ADD_TO_CART, ORDER_SERVICE)&lt;br&gt;&lt;br&gt;payload: { data: { userId, product, qty }, event: ADD_TO_CART&amp;nbsp;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1400" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="32" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="USER_QUEUE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="1320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="34" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="ORDER_QUEUE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="1410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="36" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="36" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span style=&quot;text-align: left;&quot;&gt;remove from user's cart&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DELETE - /cart/:id&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="1580" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="37" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="PublishMessage(REMOVE_FROM_CART, USER_SERVICE)&lt;br&gt;&lt;br&gt;payload: { data: { userId, product, qty }, event: REMOVE_FROM_CART&amp;nbsp;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1520" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="38" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="PublishMessage(REMOVE_FROM_CART, ORDER_SERVICE)&lt;br&gt;&lt;br&gt;payload: { data: { userId, product, qty }, event: REMOVE_FROM_CART&amp;nbsp;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1610" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="39" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="USER_QUEUE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="1530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="41" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="ORDER_QUEUE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="1620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="/product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="560" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="47" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="order service&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get cart&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;GET - /cart&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;get orders&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;GET - /orders" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="630" width="180" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="/order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="520" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="50" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;span style=&quot;text-align: left;&quot;&gt;place order&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;POST - /order&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="52" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="PublishMessage(CREATE_ORDER, USER_SERVICE)&lt;br&gt;&lt;br&gt;payload: { data: { userId, product, qty }, event: CREATE_ORDER&amp;nbsp;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="810" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="53" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="USER_QUEUE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="consumer at user and order level will consume the CASE and hit function accordingly. For example ADD_TO_CART, etc" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="260" width="420" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="shopping_app_user.users&lt;br&gt;{ user's cart: [] }" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="1310" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="shopping_app_order.carts&lt;br&gt;{ customer_id: '', items: [] }" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="1400" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="shopping_app_user.users&lt;br&gt;{ user's cart: [] }" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="1520" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="shopping_app_order.carts&lt;br&gt;{ customer_id: '', items: [] }" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="1610" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="perform actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="1320" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="perform actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="1410" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="perform actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="1530" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="perform actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="1620" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="1540" y="810" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="perform actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1415" y="820" width="110" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,111 @@
+version: '3.0'
+services:
+
+  rabbit-mq:
+    image: rabbitmq:3-management
+    container_name: rabbit-mq
+    logging: 
+      driver: none
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+    networks:
+      - ms-network
+  
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - '27017:27017'
+    networks:
+      - ms-network
+    volumes:
+      - ms-volume:/data/db
+
+  product:
+    build:
+      dockerfile: Dockerfile
+      context: ./product
+    container_name: product
+    ports:
+      - "8002:8002"
+    restart: always
+    depends_on:
+      - "mongo"
+      - "rabbit-mq"
+    environment:
+      - APP_SECRET=gfhbGFBG4554hjb
+      - MONGO_HOST=mongo
+      - PORT=8002
+      - MQ_HOST=rabbit-mq
+      - NODE_ENV=production
+    networks:
+      - ms-network
+    volumes:
+      - ms-volume:/app/product
+      - /app/product/node_modules
+
+  order:
+    build:
+      dockerfile: Dockerfile
+      context: ./order
+    container_name: order
+    ports:
+      - "8003:8003"
+    restart: always
+    depends_on:
+      - "mongo"
+      - "rabbit-mq"
+    environment:
+      - APP_SECRET=gfhbGFBG4554hjb
+      - MONGO_HOST=mongo
+      - PORT=8003
+      - MQ_HOST=rabbit-mq
+      - NODE_ENV=production
+    networks:
+      - ms-network
+    volumes:
+      - ms-volume:/app/order
+      - /app/order/node_modules
+
+  user:
+    build:
+      dockerfile: Dockerfile
+      context: ./user
+    container_name: user
+    ports:
+      - "8001:8001"
+    restart: always
+    depends_on:
+      - "mongo"
+      - "rabbit-mq"
+    environment:
+      - APP_SECRET=gfhbGFBG4554hjb
+      - MONGO_HOST=mongo
+      - PORT=8001
+      - MQ_HOST=rabbit-mq
+      - NODE_ENV=production
+    networks:
+      - ms-network
+    volumes:
+      - ms-volume:/app/user
+      - /app/user/node_modules
+
+  nginx-proxy:
+    build:
+      dockerfile: Dockerfile
+      context: ./proxy
+    depends_on:
+      - product
+      - order
+      - user
+    ports:
+      - "3000:80"
+    networks:
+      - ms-network
+
+networks:
+  ms-network:
+
+volumes:
+  ms-volume:
